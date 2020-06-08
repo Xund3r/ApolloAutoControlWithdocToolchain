@@ -1,7 +1,6 @@
 [[section-hardware-structure]]
 == Hardware Struktur
 ****
-//hardware dafuq
-testcontent
+Das Control Modul benötigt keine spezielle Hardware, bzw Apollo Auto gibt einen indutriallen Computer an, den Neousys Nuvo-6108GC, auf diesem wird zusammen mit allen anderen Rechnenintensiven Modulen auch die Berrechnungen des Control Moduls durchgeführt.
 ****
 
