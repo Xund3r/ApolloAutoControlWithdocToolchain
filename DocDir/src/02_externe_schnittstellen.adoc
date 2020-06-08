@@ -11,15 +11,15 @@ Das Planning Modul gibt sein errechneten Fahrweg(trajectory) an das Conrtolmodul
 Das Canbus Modul beinhaltet den Aktuellen Status des Autos, zum Beispiel die aktuelle Geschwindigkeit sowie die aktuelle Beschleunigung. Diese Daten stellt das Canbus Modul dem Control Modul zur verfügung damit dieses ausgangswerte welche verändert werden können hat.
 
 .Localization
-Das Localization Modul beinhaltet Information über die Aktuelle Position des Autos. die Longitudinal- und Lateral-
+Das Localization Modul beinhaltet Information über die Aktuelle Position des Autos. Die Longitudinal- und Lateral-Informationen werden an das Control Modul übergeben damit dieses über die aktuelle Ausgangsposition bescheid weiß und diese Informationen mit in die Berrechnung des Neuen Auto Status einfließen lassen kann.
 
 .Dreamview
-was von hmi kommt
+Das Human-Maschine-Interface des Apollo-Auto Projektes, Dreamview, gibt dem Control Modul die Information ob es sich aktuell in einer Navigierten Fahrt oder in einer Normalen Fahrt befindet, falls das Control Modul davon Abhängig die Auto Status berrechnungen anders durchführen möchte.
 ****
 
 === Outputs
 ****
 .Canbus
-was an chassis geht
+Der Auto Status den das Control Modul berrechnet, welcher das Auto weiterführen soll wird zurück über das Canbus Modul an das Chassis gegeben, da dieses die Befehle verarbeitet.
 
 ****
