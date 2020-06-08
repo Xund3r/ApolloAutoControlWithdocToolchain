@@ -1,17 +1,25 @@
-[[section-architecture-constraints]]
-== Randbedingungen
+[[section-external-interfaces]]
 
-[role="arc42help"]
+== Externe Schnittstellen
+//proto files
+=== Inputs
 ****
-.Inhalt
-Randbedingungen und Vorgaben, die ihre Freiheiten bezüglich Entwurf, Implementierung oder Ihres Entwicklungsprozesses einschränken.
-Diese Randbedingungen gelten manchmal organisations- oder firmenweit über die Grenzen einzelner Systeme hinweg.
+.Planning
+Das Planning Modul gibt sein errechneten Fahrweg(trajectory) an das Conrtolmodul weiter, damit dieses diesem folgen kann.
 
-.Motivation
-Für eine tragfähige Architektur sollten Sie genau wissen, wo Ihre Freiheitsgrade bezüglich der Entwurfsentscheidungen liegen und wo Sie Randbedingungen beachten müssen.
-Sie können Randbedingungen vielleicht noch verhandeln, zunächst sind sie aber da.
+.Canbus
+Das Canbus Modul beinhaltet den Aktuellen Status des Autos, zum Beispiel die aktuelle Geschwindigkeit sowie die aktuelle Beschleunigung. Diese Daten stellt das Canbus Modul dem Control Modul zur verfügung damit dieses ausgangswerte welche verändert werden können hat.
 
-.Form
-Einfache Tabellen der Randbedingungen mit Erläuterungen.
-Bei Bedarf unterscheiden Sie technische, organisatorische und politische Randbedingungen oder übergreifende Konventionen (beispielsweise Programmier- oder Versionierungsrichtlinien, Dokumentations- oder Namenskonvention).
+.Localization
+Das Localization Modul beinhaltet Information über die Aktuelle Position des Autos. die Longitudinal- und Lateral-
+
+.Dreamview
+was von hmi kommt
+****
+
+=== Outputs
+****
+.Canbus
+was an chassis geht
+
 ****
