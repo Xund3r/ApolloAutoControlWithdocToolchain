@@ -30,5 +30,6 @@ jobs:
     - name: Run a multi-line script
       run: |
         cd ./bin/
+        chmod +x ./doctoolchain
         ./doctoolchain DocDir generatePDF
-        bash ./doctoolchain DocDir generateHTML
+        ./doctoolchain DocDir generateHTML
