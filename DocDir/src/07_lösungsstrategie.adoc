@@ -3,5 +3,5 @@
 
 
 ****
-testcontent
+Bei der Lösung bzw der Umsetzung des Control Moduls sind vorallem die Rahmenbedinung zu betrachten. Diese geben vor, dass die berrechnung relativ häufig und recht schnell durchgeführt werden müssen, da der Status des Autos die gesamte zeit auf neue Informationen der anderen Module angepasst werden muss. 
 ****

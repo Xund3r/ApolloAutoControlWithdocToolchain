@@ -1,7 +1,11 @@
 [[section-requirements-constraints]]
-== Laufzeitsicht
+== Anforderungen und Rahmenbedinungen
 
 
 ****
-testcontent
+.Anforderungen
+Das Control Modul muss aus den verschiedenen Informationen welche die verschiedenen Sensoren bzw Algorithmen der Anderen Module bereit stellen einen aktuellen Status des Autos berrechnen. Das beinhaltet Lenk eingaben, wie Lenkrichtung und Lenkeinschlag, sowie auch Gas und Brems signal eingaben für das autonom Fahrende Auto.
+
+.Rahmenbedinungen
+Diese berrechnungen müssen, da sie das Auto steuern sollen, Echtzeit kritisch berrechnet werden, um das Auto sicher und nach den neusten Informationen der Anderen Module steuern kann.
 ****

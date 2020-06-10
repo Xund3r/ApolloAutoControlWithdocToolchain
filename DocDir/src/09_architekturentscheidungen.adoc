@@ -3,5 +3,6 @@
 
 
 ****
-testcontent
+Das Conrtol Modul ist seit Apollo 1.0 als solches vorhanden und hat sich wenig gewandelt in funktionalität.
+Lediglich die zusätzlich zu verarbeitenden Daten die durch die Entwicklung von dem Planning Modul und der Dreamview Oberfläche Hinzukamen sind zusätzlich zu verarbeiten gewesen. Dieses Resultierte darin das um die Rahmenbedinungen einzuhalten die Berrechnungen der Verschiedenen Informationsquellen in verschiedene Controller aufgeteilt werden mussten.
 ****

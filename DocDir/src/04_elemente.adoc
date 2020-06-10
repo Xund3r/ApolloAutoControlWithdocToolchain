@@ -5,27 +5,19 @@
 Die Control Component Komponente stellt die außenhülle des Control Moduls dar. Hier werden anfragen entgegengenommen und die Berrechnungen des Moduls werden Initiiert.
 
 
-.example diagram
-[plantuml, "{plantUMLDir}demoPlantUML", png] 
-----
-class BlockProcessor
-class DiagramBlock
-class DitaaBlock
-class PlantUmlBlock
-
-BlockProcessor <|-- DiagramBlock
-DiagramBlock <|-- DitaaBlock
-DiagramBlock <|-- PlantUmlBlock
-----
 
 === Controller
 ****
 .Controller Agent
 Der Controller Agent ist der interne Switch, über den die Anfragen welche am Control Component ankommen auf die einzelnen Berrechnenden Conrtoller verteilt wird.
+
 .Lat Controller
 Der Latitude Controller ist der Controller welcher die daten zu Breitengraden welche vom Localization Modul kommen, sowie auch die die vom Chassis bezüglich der Aktuellen Auto Position kommen, mit in die berrechnung für den neuen Auto Status einfließen lässt.
+
 .Lon Controller
 Der Longitude Controller ist der Controller welcher die daten zu Längengraden welche vom Localization Modul kommen, sowie auch die die vom Chassis bezüglich der Aktuellen Auto Position kommen, mit in die berrechnung für den neuen Auto Status einfließen lässt.
+
 .Mpc Controller
 Der MPC(Model Predictive Conrtol) Controller ist jerjenige Controller welcher den aktuell geplanten Fahrweg des Planning Moduls in die neue Auto Position einfließen lässt.
 ****
+

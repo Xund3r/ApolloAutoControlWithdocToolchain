@@ -4,5 +4,30 @@
 
 ****
 // maybe interaktion between the controllers
-testcontent
+Interne Schnittstellen bestehen durch die aufrufe des Controller untereinander. Die Controller Componente ruft über den Controller Agent die verschiedenen Berrechnungsalgorithmen der Latitiude Longitude und MPC Controller auf.
+Genue beschreibungen der Interfaces sind nicht nötig, da es sich um lediglich einen Methoden aufruf zur Datenweitergabe handelt.
 ****
+
+.Control Modul Diagram
+[plantuml, "{plantUMLDir}demoPlantUML", png] 
+----
+() "Control Module Interface" as CMI
+() "Control Agent Interface" as CAI
+
+() "Latitude Controller Interface" as LatCI
+() "Longitude Controller Interface" as LonCI
+() "MPC Controller Interface" as MPCCI
+
+CMI - [Control Module Component]
+[Control Module Component] ..> CAI : use
+CAI - [Control Agent] 
+[Control Agent] ..> LatCI : use
+[Control Agent] ..> LonCI : use
+[Control Agent] ..> MPCCI : use
+LatCI -down- [Latitude Controller]
+LonCI -down- [Longitude Controller]
+MPCCI -down- [MPC Controller]
+[Latitude Controller] ..> () "Chassis Car Status" : set
+[Longitude Controller] ..> () "Chassis Car Status" : set
+[MPC Controller] ..> () "Chassis Car Status" : set
+----

@@ -3,5 +3,5 @@
 
 
 ****
-testcontent
+Das Konzept zur umsetzung der lösungsstrategie ist die aufteilung der verschiedenen Dateneingänge in in verschiedene Controller, welche ihre jeweiligen Daten verarbeiten und dementsprechend an den Aktuellen Auto Status anpassen. Hierfür wird innerhalb der Controller viel Matrizen basierte Mathematik genutzt, da diese durch Compiler Optimierungen auf unserem Industrielen Rechner schnell durchzuführen sind.
 ****
