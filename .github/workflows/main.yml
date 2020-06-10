@@ -30,5 +30,6 @@ jobs:
     - name: Run a multi-line script
       run: |
         chmod +x ./bin/doctoolchain
+        chmod +x ./gradlew
         ./bin/doctoolchain DocDir generatePDF
         ./bin/doctoolchain DocDir generateHTML
