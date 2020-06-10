@@ -11,6 +11,7 @@ Genue beschreibungen der Interfaces sind nicht nötig, da es sich um lediglich e
 .Control Modul Diagram
 [plantuml, "{plantUMLDir}demoPlantUML", png] 
 ----
+!pragma graphviz_dot jdot
 () "Control Module Interface" as CMI
 () "Control Agent Interface" as CAI
 
