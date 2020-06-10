@@ -31,4 +31,5 @@ MPCCI -down- [MPC Controller]
 [Latitude Controller] ..> () "Chassis Car Status" : set
 [Longitude Controller] ..> () "Chassis Car Status" : set
 [MPC Controller] ..> () "Chassis Car Status" : set
+[testcomponent]
 ----
