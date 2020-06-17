@@ -1,9 +1,8 @@
 [[section-systemcontext]]
 ==	Systemkontext
-image::Apollo_3_5_software_architecture.png[Architektur, title="Software Modul interaktions Darstellung"]
 //mea layer extrapolated form proto files
 ****
-
+Das Guardian Modul ist das Letze Safety und Kontrollier Modul befor die vom Control Module berechneten Status werte tatsächlich über den Canbus an das Chassis geschrieben werden.
 ****
 
 

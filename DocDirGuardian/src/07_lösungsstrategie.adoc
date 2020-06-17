@@ -3,5 +3,5 @@
 
 
 ****
-
+Strategie zur umsetzung des Guardian Moduls ist eine einfach weitere Layer in welcher die Werte kontrolliert abgefangen werden können und zusätzlich ein Safety Mode eingebracht werden konnte.
 ****

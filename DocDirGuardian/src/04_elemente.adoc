@@ -1,6 +1,6 @@
 [[section-elements]]
 == Elemente
 ****
-
+Das Guadian Modul ist eine einzeln stehende Klasse mit funktionen zum durchgeben der Status Daten und zum Triggern des Safety Mode, welcher zu einer Notbremsung führt.
 ****
 

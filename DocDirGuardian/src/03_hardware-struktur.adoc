@@ -1,6 +1,7 @@
 [[section-hardware-structure]]
 == Hardware Struktur
 ****
+Das Guardian Modul ist ein reines Software Modul und wird dementsprechend nur auf dem Hauptcomputer ausgeführt. Greifft aber auf einige umgebungssensoren zu um zu verifizieren das die vom Control Modul berrechneten Status Daten Legitim und umsetzbar sind.
 
 ****
 

@@ -3,5 +3,5 @@
 
 
 ****
-
-----
+Durch die implementation des Moduls in einer einzelnen Klasse sind keine Internen Schnittstellen vorhanden, ausser die Bezüge zwischen den Funktionen.
+****

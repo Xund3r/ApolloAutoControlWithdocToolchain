@@ -2,6 +2,5 @@
 
 == Externe Schnittstellen
 ****
-
-
+Das Guardian Modul wird vom Monitor modul überwacht und erhält Daten/Eingaben von dem Control Modul. Es hat Daten ausgaben an das Chassis im Canbus modul.
 ****
