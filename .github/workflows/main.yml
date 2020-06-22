@@ -19,14 +19,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - uses: actions/upload-artifact@v2
-      with:
-        name: buildControl
-        path: ./DocDir/build/
-    - uses: actions/upload-artifact@v2
-      with:
-        name: buildGuardian
-        path: ./DocDirGuardian/build/
+    
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
@@ -41,3 +34,14 @@ jobs:
         chmod +x ./gradlew
         ./bin/doctoolchain DocDir generatePDF
         ./bin/doctoolchain DocDir generateHTML
+        ./bin/doctoolchain DocDirGuardian generatePDF
+        ./bin/doctoolchain DocDirGuardian generateHTML
+        
+    - uses: actions/upload-artifact@v2
+      with:
+        name: buildControl
+        path: ./DocDir/build/
+    - uses: actions/upload-artifact@v2
+      with:
+        name: buildGuardian
+        path: ./DocDirGuardian/build/
