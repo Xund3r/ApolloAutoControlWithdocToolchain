@@ -36,6 +36,8 @@ jobs:
         ./bin/doctoolchain DocDir generateHTML
         ./bin/doctoolchain DocDirGuardian generatePDF
         ./bin/doctoolchain DocDirGuardian generateHTML
+        ./bin/doctoolchain Anhang generatePDF
+        ./bin/doctoolchain Anhang generateHTML
         
     - uses: actions/upload-artifact@v2
       with:
@@ -45,3 +47,7 @@ jobs:
       with:
         name: buildGuardian
         path: ./DocDirGuardian/build/
+    - uses: actions/upload-artifact@v2
+      with:
+        name: buildGuardian
+        path: ./Anhang/build/
