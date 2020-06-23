@@ -3,5 +3,5 @@
 
 
 ****
-Zur Umsetzung der Lösungsstrategie und zur warung der Latenz wurde besagte Zwischenschicht recht einfach gehalten implementiert und inner halb einer Klasse umgesetzt. Diese Klasse enthält alle nötigen Funktionen.
+Zur Umsetzung der Lösungsstrategie und zur Warung der Latenz wurde besagte Zwischenschicht recht einfach gehalten implementiert und innerhalb einer Klasse umgesetzt. Diese Klasse enthält alle nötigen Funktionen.
 ****

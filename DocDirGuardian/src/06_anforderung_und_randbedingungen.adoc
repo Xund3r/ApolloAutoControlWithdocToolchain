@@ -3,6 +3,6 @@
 
 
 ****
-Das Guardian Modul muss den Safety Mode der das Auto eine Notbremsung durchführen lässt veranlassen können und die Abstands Sonar sensoren Dementsprechend auslesen.
-Ausserdem Muss es die Eingehenden Daten des Control Moduls mit den aktuellen werten der Sonars gegenrechnen und demensprechend die Status Daten im Chassis Aktivieren.
+Das Guardian Modul muss den Safety Mode, der das Auto eine Notbremsung durchführen lässt, veranlassen können und die Abstandssonarsensoren dementsprechend auslesen.
+Ausserdem muss es die eingehenden Daten des Controlmoduls mit den aktuellen Werten der Sonars gegenrechnen und demensprechend die Statusdaten im Chassis aktivieren.
 ****

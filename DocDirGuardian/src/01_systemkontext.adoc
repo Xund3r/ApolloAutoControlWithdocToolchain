@@ -2,7 +2,8 @@
 ==	Systemkontext
 //mea layer extrapolated form proto files
 ****
-Das Guardian Modul ist das Letze Safety und Kontrollier Modul befor die vom Control Module berechneten Status werte tatsächlich über den Canbus an das Chassis geschrieben werden.
+
+Das Guardian Modul ist das letzte Safety- und Kontrollier-Modul bevor die vom Control Module berechneten Statuswerte tatsächlich über den Canbus an das Chassis geschrieben werden.
 ****
 
 

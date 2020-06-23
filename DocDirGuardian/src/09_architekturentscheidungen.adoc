@@ -3,5 +3,7 @@
 
 
 ****
-Das Guardian Modul wurde mit der Version Apollo 3.0 eingeführt und dient hauptsächlich zur verbesserung und weiteren Absicherung der bisher bereits implementierten Fahr Features.
+Das Guardian Modul wurde mit der Version Apollo 3.0 eingeführt und dient hauptsächlich zur Verbesserung und weiteren Absicherung der bisher bereits implementierten Fahrfeatures.
 ****
+
+

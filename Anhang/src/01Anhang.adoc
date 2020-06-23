@@ -1,0 +1,20 @@
+[[section-systemcontext]]
+==	Anhang
+=== Erfahrungen Apollo
+****
+Unsere Erfahung mit Apollo war sehr negativ. Wir konnten nicht wirklich identifizieren, wofür das "Controlmodul" genutzt wird. Der Grund dafür ist, dass in diesem Modul sehr viel Matrixrechnung stattfindet, dessen Funktion wir aber nicht durchdringen konnten. Erschwert wurde dies noch durch die 
+Tatsache, dass die einzelnen Variablennamen innerhalb der Berechnung nicht auf die Funktion schließen haben lassen. Aus diesem Grund haben wir uns nur mit den übergeordneten Eigenschaften des Moduls, welche für eine Architekturdokumentation entscheidener sind, befassen können. Außerdem können 
+wir abschließend nicht mehr zu diesem Modul sagen, außer das hier scheinbar Daten umgerechnet und diese anschließend an ein anderes Modul übergeben werden.
+****
+
+=== Arc42
+****
+Arc42 ist ein sehr umfangreiches Template für Architekturdokumenationen, dessen Mächtigkeit leicht unterschätzt werden kann. Es eigent sich bestimmt gut für sehr große Projekte. Für einzelne Module scheint dieses sehr überdimensioniert zu sein. Aus diesem Grund wirkt unsere Dokumentation 
+ebenfalls sehr klein.
+****
+
+=== docToolchain als CI-Task
+****
+Um diese Arbeit mit docToolcxhaiun zu erstellen mussten zunächst eine Einarbeitung erfolgen. Es stellte sich jedoch heraus, dass wir nur einen kleinen Funktionumfang benötigten. Daher hat die Einarbeitung nicht viel Zeit in Anspruch genommen. Sobald docToolchain als CI-Task eingerichtet war, war
+es relativ einfach Dokumentationen hiermit zu erstellen, weil ASCIIDOC eine recht einfache Auszeichnungssprache ist. 
+****
