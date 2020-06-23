@@ -49,5 +49,5 @@ jobs:
         path: ./DocDirGuardian/build/
     - uses: actions/upload-artifact@v2
       with:
-        name: buildGuardian
+        name: buildAnhang
         path: ./Anhang/build/
